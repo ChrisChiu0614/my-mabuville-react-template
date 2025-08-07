@@ -1,0 +1,14 @@
+.carousel-caption.centered {
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+  text-align: center;
+
+}
+
+.carousel-caption.centered > h3 {
+  font-weight: bold;
+  font-size: 5rem;
+  color: white;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}

@@ -1,0 +1,14 @@
+.card-img-overlay {
+  background: rgba(0, 0, 0, 0.3); /* 半透明黑底 */
+  transition: background 0.3s ease;
+}
+
+.card:hover .card-img-overlay {
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.fixed-img {
+  height: 400px;
+  width: 100px;
+  object-fit: cover;
+}
