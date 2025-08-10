@@ -1,0 +1,52 @@
+.kanban-column {
+  background: #fff;
+  border: 1px solid #e6e8ec;
+  border-radius: 12px;
+  min-height: 420px;
+  padding: 12px;
+  flex: 0 0 280px; /* 固定每個欄位寬度，可自行調整 */
+}
+
+.kanban-column-header {
+  color: #172B4D;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.2px;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+
+.kanban-lane-wrap {
+  display: flex;
+  flex-wrap: nowrap; /* 禁止換行 */
+  overflow-x: auto; /* 橫向捲動 */
+  gap: 16px; /* 欄位間距 */
+  padding-bottom: 8px; /* 預留空間給捲軸 */
+}
+
+
+.issue-card {
+  border-radius: 12px;
+  border: 1px solid #e6e8ec;
+  box-shadow: 0 1px 1px rgba(9, 30, 66, 0.1);
+  margin-bottom: 10px;
+  
+}
+
+.badge-init {
+  background: #e9f2ff;
+  color: #0c66e4;
+}
+
+.badge-phase {
+  background: #f1f2f4;
+  color: #44546f;
+}
+
+.badge-done {
+  background: #dcf7e3;
+  color: #216e4e;
+}
